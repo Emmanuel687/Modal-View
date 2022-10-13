@@ -12,13 +12,12 @@ let closeButtonModal = document.querySelector(`.close-modal`)
 let showButtonModal = document.querySelectorAll(`.show-modal`)
 console.log(showButtonModal)
 
-
-// Loop through the showButton
 let showButton =()=>{
     // Remove the class of hidden from Modal && Overlay
     modal.classList.remove(`hidden`)
     overlay.classList.remove(`hidden`)
 }
+    // Loop through the showButton
     for(let i = 0; i<showButtonModal.length; i++)
     showButtonModal[i].addEventListener(`click`,showButton)
 
