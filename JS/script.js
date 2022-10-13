@@ -19,4 +19,5 @@ for(let i = 0; i<showButtonModal.length; i++)
         console.log(`button clicked`)
         // Remove the class of hidden from Modal
         modal.classList.remove(`hidden`)
+        overlay.classList.remove(`hidden`)
     })
