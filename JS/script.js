@@ -21,3 +21,8 @@ for(let i = 0; i<showButtonModal.length; i++)
         modal.classList.remove(`hidden`)
         overlay.classList.remove(`hidden`)
     })
+
+
+closeButtonModal.addEventListener(`click`,()=>{
+    modal.classList.add(`.hidden`)
+})
