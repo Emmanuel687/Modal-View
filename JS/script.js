@@ -13,7 +13,7 @@ let showButtonModal = document.querySelectorAll(`.show-modal`)
 console.log(showButtonModal)
 
 
-// Loop through the 
+// Loop through the showButton
 for(let i = 0; i<showButtonModal.length; i++)
     showButtonModal[i].addEventListener(`click`,function(){
         console.log(`button clicked`)
