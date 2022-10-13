@@ -25,4 +25,7 @@ for(let i = 0; i<showButtonModal.length; i++)
 
 closeButtonModal.addEventListener(`click`,()=>{
     modal.classList.add(`.hidden`)
+
 })
+
+
