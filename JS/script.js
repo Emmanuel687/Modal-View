@@ -17,14 +17,15 @@ console.log(showButtonModal)
 for(let i = 0; i<showButtonModal.length; i++)
     showButtonModal[i].addEventListener(`click`,function(){
         console.log(`button clicked`)
-        // Remove the class of hidden from Modal
+        // Remove the class of hidden from Modal && Overlay
         modal.classList.remove(`hidden`)
         overlay.classList.remove(`hidden`)
     })
 
-
+// Adds the class of hidden in the modal&overlay
 closeButtonModal.addEventListener(`click`,()=>{
-    modal.classList.add(`.hidden`)
+    modal.classList.add(`hidden`)
+    overlay.classList.add(`hidden`)
 
 })
 
