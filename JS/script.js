@@ -14,19 +14,19 @@ console.log(showButtonModal)
 
 
 // Loop through the showButton
-for(let i = 0; i<showButtonModal.length; i++)
-    showButtonModal[i].addEventListener(`click`,function(){
-        console.log(`button clicked`)
-        // Remove the class of hidden from Modal && Overlay
-        modal.classList.remove(`hidden`)
-        overlay.classList.remove(`hidden`)
-    })
+let showButton =()=>{
+    // Remove the class of hidden from Modal && Overlay
+    modal.classList.remove(`hidden`)
+    overlay.classList.remove(`hidden`)
+}
+    for(let i = 0; i<showButtonModal.length; i++)
+    showButtonModal[i].addEventListener(`click`,showButton)
 
 // Adds the class of hidden in the modal&overlay
-closeButtonModal.addEventListener(`click`,()=>{
+let closeButton= ()=>{
     modal.classList.add(`hidden`)
     overlay.classList.add(`hidden`)
 
-})
-
+}
+closeButtonModal.addEventListener(`click`,closeButton)
 
