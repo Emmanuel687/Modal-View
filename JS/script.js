@@ -1,3 +1,4 @@
+// Selected the modal element class
 let modal = document.querySelector(`.modal`)
 let overlay = document.querySelector(`.overlay`)
 let closeButtonModal = document.querySelector(`.close-modal`)
