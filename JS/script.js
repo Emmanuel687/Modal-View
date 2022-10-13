@@ -17,4 +17,6 @@ console.log(showButtonModal)
 for(let i = 0; i<showButtonModal.length; i++)
     showButtonModal[i].addEventListener(`click`,function(){
         console.log(`button clicked`)
+        // Remove the class of hidden from Modal
+        modal.classList.remove(`hidden`)
     })
