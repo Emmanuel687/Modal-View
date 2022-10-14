@@ -29,9 +29,10 @@ let closeButton= ()=>{
 }
 closeButtonModal.addEventListener(`click`,closeButton)
 
-// 
-document.addEventListener(`keyup`, (event)=>{
+// Escape Key Event.
+let escapeKey = (event)=>{
     if(event.key===`Escape` && !modal.classList.add(`hidden`)){
         closeButton()
     }
-})
+}
+document.addEventListener(`keyup`,escapeKey)
