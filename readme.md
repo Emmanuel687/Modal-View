@@ -7,7 +7,7 @@ Click Events and key Events are Used.
 
 
 # Setup/Installation Requirements
-1.Clone the repository https://github.com/Emmanuel687/Guess-Game.git 
+1.Clone the repository https://github.com/Emmanuel687/Modal-View.gitt 
 2.Open Terminal Command line,Navigate to project folder. 
 3.Cd to project. 
 4.Install Liveserve in Vscode.
