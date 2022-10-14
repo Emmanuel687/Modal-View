@@ -2,7 +2,7 @@
 Emmanuel Koech
 
 # Description
-This is a simple modal view built with javascript.
+This is a simple modal view built with javascript DOM.
 Click Events and key Events are Used.
 
 
